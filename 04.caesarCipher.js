@@ -1,3 +1,5 @@
+ //doesn't account for capitals 
+
  function caesarCipher(str){
     newStr = ''
     arrShifted = [];
@@ -22,4 +24,4 @@
     return newStr
  }
 
- console.log(caesarCipher("^^"))
+module.exports = caesarCipher;
